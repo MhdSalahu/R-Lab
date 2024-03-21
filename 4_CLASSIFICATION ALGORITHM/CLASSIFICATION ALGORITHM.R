@@ -1,0 +1,8 @@
+install.packages("rpart")
+library(rpart)
+fit<-rpart(Kyphosis~Age+Number+Start,data=kyphosis,method="class")
+printcp(fit)
+plotcp(fit)
+summary(fit)
+plot(fit,uniform=TRUE,main="classification tree for kyphosis")
+text(fit,uniform=TRUE,all=TRUE,cex=.8)

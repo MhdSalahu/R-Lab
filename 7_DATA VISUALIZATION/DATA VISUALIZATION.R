@@ -1,0 +1,6 @@
+v1<-read.csv("C:/Users/msala/prgrm/RProgramming/sample.csv")
+hist(v1$mark,col="pink",main="Histogram Diagram")
+v2<-table(v1$percentage)
+barplot(v2)
+boxplot(v1$mark)
+summary(v1$mark)

@@ -1,0 +1,8 @@
+install.packages("arules")
+library(arules)
+tr<-read.transactions("C:/Users/msala/prgrm/RProgramming/Mic.txt",format="basket",sep=",")
+inspect(tr)
+image(tr)
+rules<-apriori(tr,parameter=list(supp=0.5,conf=0.5))
+inspect(rules)
+summary(rules)

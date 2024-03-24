@@ -9,3 +9,5 @@
 5. [Implement Decision Tree.](./5_DECISION%20TREE/)
 6. [Linear Regression.](./6_LINEAR%20REGRESSION/)
 7. [Data Visualization.](./7_DATA%20VISUALIZATION/)
+
+    _To view PDF format of **R LAB Record** [click here](./DM%20lab%20Record.pdf)_
